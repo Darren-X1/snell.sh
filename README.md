@@ -6,7 +6,7 @@
 Debian & Ubuntu 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Darren-X1/snell.sh/master/snell.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -14,7 +14,7 @@ chmod +x snell.sh
 Centos & RedHat 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.centos.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Darren-X1/snell.sh/master/snell.centos.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -40,7 +40,7 @@ systemctl status snell
 卸载方法：
 
 ```
-wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/uninstall-snell.sh
+wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/Darren-X1/snell.sh/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
