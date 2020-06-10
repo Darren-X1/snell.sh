@@ -22,7 +22,7 @@ if [ -f ${CONF} ]; then
   mkdir /etc/snell/
   echo "Generating new config..."
   echo "[snell-server]" >>${CONF}
-  echo "listen = 0.0.0.0:9999" >>${CONF}
+  echo "listen = 0.0.0.0:9889" >>${CONF}
   echo "psk = ${PSK}" >>${CONF}
   echo "obfs = tls" >>${CONF}
 fi
