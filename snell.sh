@@ -14,7 +14,7 @@ if [ -f ${CONF} ]; then
   echo "Found existing config..."
   else
   if [ -z ${PSK} ]; then
-    PSK=$DaRrEnUnClEwAnG
+    PSK=$(DaRrEnUnClEwAnG)
     echo "Using generated PSK: ${PSK}"
   else
     echo "Using predefined PSK: ${PSK}"
