@@ -2,7 +2,13 @@
 ## 适用于64位Linux系统。
 ## 运行完毕后屏幕显示psk，默认端口号13254（我随手那么一按( ̀⌄ ́)，按照标准填入Surge即可。
 # 请使用root用户运行
+开启bbr
 
+```
+wget --no-check-certificate -O /opt/bbr.sh https://github.com/teddysun/across/raw/master/bbr.sh
+chmod 755 /opt/bbr.sh
+/opt/bbr.sh
+```
 Debian & Ubuntu 用户请运行
 
 ```
