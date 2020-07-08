@@ -4,6 +4,12 @@
 ## 原作者停止更新，此版本已更新snell-server-v2.0.3
 # 请使用root用户运行
 ---
+MTProxyTLS
+
+```
+mkdir /home/mtproxy && cd /home/mtproxy
+curl -s -o mtproxy.sh https://raw.githubusercontent.com/ellermister/mtproxy/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+```
 开启bbr
 
 ```
